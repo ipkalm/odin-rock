@@ -63,6 +63,7 @@ let game = () => {
             break;
         } else if (computerScore === 5) {
             console.log(`Computer win with ${computerScore} score`);
+            break;
         }
 
         console.log(`Round #${round + 1}`);
